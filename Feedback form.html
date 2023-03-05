@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>
+Feedback Form
+</title>
+    </head>
+        <style>
+        label {
+            display: inline-block;
+            width: 120px;
+          }
+          fieldset {
+            width:400px;
+            margin-left:500px;
+          }
+          legend {
+            font-size: 20px;
+            border: 5px solid rgb(23, 238, 23);
+            
+          }
+        </style>
+      </head>
+      <body>
+   
+        <form style="background:burlywood">
+          <fieldset style='border:10px solid red'>
+            <legend align='center'> Feedback Form</legend><br>
+              <label for="name">Name:</label>
+              <input type="text" id="name" size="30px"><br><br>
+              <label for="birth-day">Roll Number:</label>
+              <input type="text" id="rollnumber" size="30px"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" size="30px"><br><br>
+              <label for="date">Date of birth:</label>
+              <input type="date" id="date"><br><br>
+              <label for="name">Department:</label>
+              <select>
+                <option value='ECE'>ECE</option>
+                <option value='CSE'>CSE</option>
+                <option value='EEE'>EEE</option>
+                <option value='E&E'>E&I</option>
+                <option value='MECH'>MECH</option>
+                <option value='AUTO'>AUTO</option>
+                <option value='CIVIL'>CIVIL</option>
+                <option value='MTS'>MTS</option>
+                <option value='CHEM'>CHEM</option>
+                <option value='FT'>FT </option>
+              </select><br><br>
+              <label for="course name">Course Name:</label>
+              <input type="text" id="Course Name" size="30px"><br><br>
+              <table  cellpadding="10px" align="center">
+                <th align="left">Ratings</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+            
+                <tr>
+                    <td>Content Delivered</td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                </tr>
+                <tr>
+                    <td>Communication of the teacher </td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                </tr>
+                <tr>
+                    <td>Involvement of the teacher</td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                </tr>
+                <tr>
+                    <td>Overall</td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                    <td><input type='radio'></td>
+                </tr>
+            </table><br>
+            <label for="name">Sugesstion:</label><br>
+            <textarea rows="3" cols="70">
+    
+            </textarea>
+    
+            <center><input type="submit"></center>
+          </fieldset>
+        </form>
+    </body>
+</html>
